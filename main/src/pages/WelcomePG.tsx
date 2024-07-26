@@ -1,4 +1,5 @@
 import React, { FC } from 'react'
+import { Link } from 'react-router-dom'
 
 interface WelcomePG {
 
@@ -6,11 +7,9 @@ interface WelcomePG {
 
 const WelcomePG: FC<WelcomePG> = ({ }) => {
   return (
-    <div className='WelcomePG Singgle-Page flex-center'>
-      <div className="content1">
+    <div className='WelcomePG Singgle-Page'>
 
         <div className="title">
-
           <div className="welcome">
             <h1>WELCOME</h1>
             <h3>to</h3>
@@ -25,12 +24,11 @@ const WelcomePG: FC<WelcomePG> = ({ }) => {
 
         </div>
 
-        <button className="clickToContinue1">
+        <Link className="clickToContinue1" to={"/About"} >
             <h4>CLICK TO CONTINUE</h4>
-        </button>
+        </Link>
 
       </div>
-    </div>
   )
 }
 

@@ -1,5 +1,8 @@
 @import "./var.scss";
+
+// 
 @import "./pages/WelcomePG.scss";
+@import "./pages/AboutPG.sass";
 
 * {
     font-family: "Noto Sans", sans-serif;
@@ -7,15 +10,33 @@
 
 body {
     margin: 0;
-    background-color: $cpBackground;
+    background-color: $cpBackgroundAcc;
     color: $cpText;
+    overflow: hidden;
+}
+::-webkit-scrollbar {
+  display: none;//for now
 }
 
-.Singgle-Page{
-    max-width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+.App {
 
+    background-color: $cpBackground;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: $appWidth;
+    height: $appHight;
+    border-radius: 1vw;
+
+    // mask-image: url("data:image/svg+xml;utf8,    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'>      <rect x='0' y='0' width='100' height='100' fill='black'/>    </svg>");
+    // mask-repeat: no-repeat;
+    // mask-position: center;
+    // mask-size: calc(100% - 3vw) calc(100% - 3vw);
+}
+
+.Singgle-Page {
+    width: $appWidth;
+    height: $appHight;
+    overflow: hidden;
 }
 
 h1,
@@ -30,35 +51,40 @@ h6 {
     height: fit-content;
 }
 
-h1{
+h1 {
     font-family: "Sagite";
     font-weight: lighter;
     font-size: 14vw;
 }
-h2{
+h2 {
     font-family: "Akira Expanded";
     -webkit-text-stroke: 0.01em $cpBackground;
     font-size: 11vw;
 }
-h3{
-    font-family: 'Beauty';
-    font-weight:100;
+h3 {
+    font-family: "Beauty";
+    font-weight: 100;
     font-size: 7vw;
 }
 
-h4{
+h4 {
     font-family: "Sagite";
     -webkit-text-stroke: 0.05em $cpSecondary;
     color: $cpSecondary;
     letter-spacing: 0.3vw;
 }
 
-.flex-center{
+#root{
+    min-height: 100vh;
+}
+
+.flex-center,#root {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-button{
+a,button {
     cursor: pointer;
+    text-decoration: none;
 }
