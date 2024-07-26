@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face { //sagite
+    font-family: 'Sagite';
+    src: url('../media/font/Sagite.otf');
+}
+@font-face { //sagite italic
+    font-family: 'Sagite Italic';
+    src: url('../media/font/Sagite-Italic.otf');
+}
+@font-face { //argine
+    font-family: 'Argine';
+    src: url('../media/font/argine.otf');
+}
+@font-face { //beauty
+    font-family: 'Beauty';
+    src: url('../media/font/Beauty.otf');
+}
+@font-face { //akira
+    font-family: 'Akira Expanded';
+    src: url('../media/font/Akira\ Expanded.otf');
+}
+
+/*
+cp = color palate
+
+*/
+
+
+
+$cpText: #D11802;
+$cpBackground: #F9DAC5;
+$cpBackgroundAcc: #112126;
+$cpPrimary: #F3824B;
+$cpSecondary: #990D0D;
+$cpAccent: #421006;

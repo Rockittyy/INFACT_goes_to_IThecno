@@ -1,0 +1,95 @@
+@import "../var.scss";
+
+.WelcomePG {
+    background-color: $cpBackgroundAcc;
+
+    $marginToEdge: 11vw;
+
+    .content1 {
+        background-color: $cpBackground;
+        width: calc(100% - 2vw);
+        height: calc(100% - 2vw);
+        border-radius: 5px;
+        .title {
+            margin: auto;
+            max-width: calc(100vw - $marginToEdge);
+            padding-top: 10vh;
+
+            .welcome {
+                position: relative;
+                h1 {
+                    display: inline;
+                }
+                h3 {
+                    margin-left: 1vw;
+                    display: inline;
+                    position: absolute;
+                    bottom: -15%;
+                }
+            }
+            h2 {
+                position: relative;
+                z-index: 1;
+            }
+
+            .posHelper1 {
+                position: absolute;
+                right: 32vw;
+                $CircleSize1: 12vw;
+                .TxtArchive::before {
+                    content: "";
+                    position: absolute;
+                    width: $CircleSize1;
+                    height: $CircleSize1;
+
+                    background-color: $cpSecondary;
+                    border-radius: 50%;
+                }
+                .TxtArchive {
+                    margin-top: -18%;
+                    width: $CircleSize1;
+                    height: $CircleSize1;
+                    .text {
+                        font: inherit;
+                        position: relative;
+                        z-index: 1;
+                        font-size: 4.5vw;
+                        color: $cpBackground;
+                    }
+                }
+            }
+        }
+        .clickToContinue1 {
+            margin-top: 30vh;
+            background-color: transparent;
+            border: none;
+            position: absolute;
+
+            right: 10vw;
+
+            $height1: 5vw;
+
+            &::before,
+            h4 {
+                content: "";
+                display: block;
+                width: 25vw;
+                height: $height1;
+                font-size: 1vw;
+                border: 0.2vw solid $cpSecondary;
+            }
+            h4 {
+                position: relative;
+                background-color: $cpBackground;
+                line-height: $height1;
+                font-weight: bold;
+                z-index: 1;
+            }
+            &::before {
+                position: absolute;
+                top: 0.9vw;
+                right:-0.9vw;
+            }
+        }
+    }
+}
