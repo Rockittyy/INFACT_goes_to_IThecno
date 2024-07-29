@@ -5,7 +5,6 @@
     $marginToEdge: 11vw;
 
     .title {
-        margin: auto;
         max-width: calc(100vw - $marginToEdge);
         padding-top: 10vh;
 
@@ -28,8 +27,8 @@
 
         .posHelper1 {
             position: absolute;
-            right: 32vw;
-            $CircleSize1: 12vw;
+            left: 1100px;
+            $CircleSize1: 225px;
             .TxtArchive::before {
                 content: "";
                 position: absolute;
@@ -47,30 +46,30 @@
                     font: inherit;
                     position: relative;
                     z-index: 1;
-                    font-size: 4.5vw;
+                    font-size: 85px;
                     color: $cpBackground;
                 }
             }
         }
     }
     .clickToContinue1 {
-        margin-top: 30vh;
+        margin-top: 250px;
         background-color: transparent;
         border: none;
         position: absolute;
 
 
-        right: 10vw;
+        left: 1190px;
 
-        $height1: 5vw;
+        $height1: 100px;
 
         &::before,
         h4 {
             content: "";
             display: block;
-            width: 25vw;
+            width: 500px;
             height: $height1;
-            font-size: 1vw;
+            font-size: 25px;
             border: 0.2vw solid $cpSecondary;
         }
         h4 {

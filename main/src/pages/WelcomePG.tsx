@@ -17,7 +17,6 @@ const WelcomePG: FC<WelcomePG> = ({ }) => {
 
           <h2>INDONESIA</h2>
           <div className="posHelper1">
-
             <h3 className="TxtArchive flex-center"> <span className="text">Archive</span></h3>
           </div>
 

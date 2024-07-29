@@ -1,8 +1,8 @@
 @import "./var.scss";
 
-// 
+//
 @import "./pages/WelcomePG.scss";
-@import "./pages/AboutPG.sass";
+@import "./pages/AboutPG.scss";
 
 * {
     font-family: "Noto Sans", sans-serif;
@@ -15,17 +15,18 @@ body {
     overflow: hidden;
 }
 ::-webkit-scrollbar {
-  display: none;//for now
+    display: none; //for now
 }
 
 .App {
-
     background-color: $cpBackground;
     overflow-y: scroll;
     overflow-x: hidden;
     width: $appWidth;
     height: $appHight;
     border-radius: 1vw;
+    box-sizing: border-box;
+    padding: 0 80px;
 
     // mask-image: url("data:image/svg+xml;utf8,    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'>      <rect x='0' y='0' width='100' height='100' fill='black'/>    </svg>");
     // mask-repeat: no-repeat;
@@ -54,17 +55,17 @@ h6 {
 h1 {
     font-family: "Sagite";
     font-weight: lighter;
-    font-size: 14vw;
+    font-size: 300px;
 }
 h2 {
     font-family: "Akira Expanded";
     -webkit-text-stroke: 0.01em $cpBackground;
-    font-size: 11vw;
+    font-size: 230px;
 }
 h3 {
     font-family: "Beauty";
     font-weight: 100;
-    font-size: 7vw;
+    font-size: 130px;
 }
 
 h4 {
@@ -74,17 +75,19 @@ h4 {
     letter-spacing: 0.3vw;
 }
 
-#root{
+#root {
     min-height: 100vh;
 }
 
-.flex-center,#root {
+.flex-center,
+#root {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-a,button {
+a,
+button {
     cursor: pointer;
     text-decoration: none;
 }
