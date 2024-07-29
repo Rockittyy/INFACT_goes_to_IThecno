@@ -2,11 +2,10 @@
 
 .WelcomePG {
     position: relative;
-    $marginToEdge: 11vw;
 
     .title {
-        max-width: calc(100vw - $marginToEdge);
-        padding-top: 10vh;
+        max-width: 100%;
+        width: fit-content;
 
         .welcome {
             position: relative;
@@ -27,8 +26,8 @@
 
         .posHelper1 {
             position: absolute;
-            left: 1100px;
-            $CircleSize1: 225px;
+            right: 25vw;
+            $CircleSize1: 13vw;
             .TxtArchive::before {
                 content: "";
                 position: absolute;
@@ -39,37 +38,37 @@
                 border-radius: 50%;
             }
             .TxtArchive {
-                margin-top: -18%;
+                margin-top: -45%;
                 width: $CircleSize1;
                 height: $CircleSize1;
                 .text {
                     font: inherit;
                     position: relative;
                     z-index: 1;
-                    font-size: 85px;
+                    font-size: 5vw  ;
                     color: $cpBackground;
                 }
             }
         }
     }
     .clickToContinue1 {
-        margin-top: 250px;
+        margin-top: 12.5vw;
         background-color: transparent;
         border: none;
         position: absolute;
 
 
-        left: 1190px;
+        right: 1vw;
 
-        $height1: 100px;
+        $height1: 5vw;
 
         &::before,
         h4 {
             content: "";
             display: block;
-            width: 500px;
+            width: 25vw;
             height: $height1;
-            font-size: 25px;
+            font-size: 1vw;
             border: 0.2vw solid $cpSecondary;
         }
         h4 {
