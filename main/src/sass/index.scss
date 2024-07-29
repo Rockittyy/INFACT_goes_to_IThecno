@@ -20,7 +20,7 @@ body {
 
 .App {
     background-color: $cpBackground;
-    overflow-y:visible;
+    overflow-y: visible;
     overflow-x: hidden;
     width: $appWidth;
     height: $appHight;
@@ -28,7 +28,7 @@ body {
     box-sizing: border-box;
 
     padding: 0 5vw;
-    div{
+    div {
         margin-top: 4vw;
         max-width: 100%;
     }
@@ -95,4 +95,11 @@ a,
 button {
     cursor: pointer;
     text-decoration: none;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: 50px;
 }
