@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 @font-face {
     //sagite
@@ -34,10 +34,14 @@ cp = color palate
 
 $cpText: #d11802;
 $cpBackground: #f9dac5;
-$cpBackgroundAcc: #112126;
+$cpBackgroundAcc: #282828;
 $cpPrimary: #f3824b;
 $cpSecondary: #990d0d;
 $cpAccent: #421006;
 
-$appHight: calc(100vh - 3vw);
-$appWidth: calc(100vw - 3vw);
+$appMargin: calc(3vw / 2);
+$appHight: calc(100vh - $appMargin * 2);
+$appWidth: calc(100vw - $appMargin * 2);
+
+$navWidthMargin: 50px;
+$navHeightMargin: 65px;

@@ -1,0 +1,21 @@
+@import "../var.scss";
+
+.MainWorldPG {
+    .overLay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        .goBackBut{
+            position: absolute;
+            left: $navWidthMargin;
+            top: $navHeightMargin;
+        }
+        .NavOpen {
+            position: absolute;
+            right: $navWidthMargin;
+            top: $navHeightMargin;
+        }
+    }
+}

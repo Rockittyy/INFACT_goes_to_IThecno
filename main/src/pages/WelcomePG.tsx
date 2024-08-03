@@ -1,6 +1,8 @@
 import React, { FC } from 'react'
 import { Link } from 'react-router-dom'
 import Spline from '@splinetool/react-spline';
+import Page from '../components/Page';
+import GoBackBut from '../components/GoBackBut';
 
 
 interface WelcomePG {
@@ -9,8 +11,7 @@ interface WelcomePG {
 
 const WelcomePG: FC<WelcomePG> = ({ }) => {
   return (
-    <div className='WelcomePG Singgle-Page'>
-
+    <Page pageName='WelcomePG' singglePage>
       <div className="title">
         <div className="welcome">
           <h1>WELCOME</h1>
@@ -28,8 +29,10 @@ const WelcomePG: FC<WelcomePG> = ({ }) => {
       <Link className="clickToContinue1" to={"/About"} >
         <h4>CLICK TO CONTINUE</h4>
       </Link>
-      <Spline scene="https://prod.spline.design/VnLo8eaQFqSZtkc7/scene.splinecode" />
-    </div>
+      <div className="model">
+        <Spline scene="https://prod.spline.design/VnLo8eaQFqSZtkc7/scene.splinecode" />
+      </div>
+    </Page>
   )
 }
 

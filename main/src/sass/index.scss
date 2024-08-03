@@ -3,10 +3,9 @@
 //
 @import "./pages/WelcomePG.scss";
 @import "./pages/AboutPG.scss";
-
-* {
-    font-family: "Noto Sans", sans-serif;
-}
+@import "./pages/MainWorldPG.scss";
+@import "./pages/DevWorldPG.scss";
+@import "./component/Navbar.scss";
 
 body {
     margin: 0;
@@ -14,21 +13,41 @@ body {
     color: $cpText;
     overflow: hidden;
 }
+/* width */
 ::-webkit-scrollbar {
-    // display: none; //for now
+    width: 10px;
+    
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 .App {
     background-color: $cpBackground;
+    position: relative;
     overflow-y: visible;
     overflow-x: hidden;
     width: $appWidth;
     height: $appHight;
     border-radius: 1vw;
+    border: 3px solid $cpBackground;
     box-sizing: border-box;
 
     padding: 0 5vw;
-    div {
+    .PG {
         margin-top: 4vw;
         max-width: 100%;
     }
@@ -40,8 +59,6 @@ body {
 }
 
 .Singgle-Page {
-    width: $appWidth;
-    height: $appHight;
     overflow: hidden;
 }
 
@@ -95,6 +112,8 @@ a,
 button {
     cursor: pointer;
     text-decoration: none;
+    background-color: transparent;
+    border: none;
 }
 
 p {

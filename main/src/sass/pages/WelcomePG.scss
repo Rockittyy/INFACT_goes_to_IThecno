@@ -16,7 +16,7 @@
                 margin-left: 1vw;
                 display: inline;
                 position: absolute;
-                bottom: -15%;
+                bottom: -25%;
             }
         }
         h2 {
@@ -38,14 +38,14 @@
                 border-radius: 50%;
             }
             .TxtArchive {
-                margin-top: -45%;
+                margin-top: -25%;
                 width: $CircleSize1;
                 height: $CircleSize1;
                 .text {
                     font: inherit;
                     position: relative;
                     z-index: 1;
-                    font-size: 5vw  ;
+                    font-size: 5vw;
                     color: $cpBackground;
                 }
             }
@@ -56,7 +56,6 @@
         background-color: transparent;
         border: none;
         position: absolute;
-
 
         right: 1vw;
 
@@ -84,5 +83,13 @@
             top: 0.9vw;
             right: -0.9vw;
         }
+    }
+
+    .model {
+        width: 55vw;
+        height: auto;
+        margin-top: -10%;
+        position: relative;
+        z-index: 10;
     }
 }

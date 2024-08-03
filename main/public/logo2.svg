@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xodm="http://www.corel.com/coreldraw/odm/2003" xml:space="preserve" width="167.72mm" height="202.294mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 9796.17 11815.6">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str3 {stroke:#FEFEFE;stroke-width:412.1;stroke-miterlimit:22.9256}
+    .str1 {stroke:#373435;stroke-width:11.68;stroke-miterlimit:22.9256}
+    .str2 {stroke:#373435;stroke-width:103.03;stroke-miterlimit:22.9256}
+    .str0 {stroke:#373435;stroke-width:103.03;stroke-miterlimit:22.9256}
+    .fil4 {fill:none}
+    .fil0 {fill:#FEFEFE}
+    .fil1 {fill:#606062}
+    .fil2 {fill:#EDE3DF}
+    .fil3 {fill:#3C2F2B}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  
+  
+  
+  
+  
+  
+  
+  <circle class="fil4 str3" cx="3003.38" cy="5386.63" r="1126.75"/>
+  <circle class="fil4 str3" cx="6834.58" cy="5386.63" r="1126.75"/>
+  <rect class="fil0 str1" x="3290.07" y="3317.52" width="983.35" height="327.78" rx="110.92" ry="110.92"/>
+  <rect class="fil0 str1" x="5475.96" y="3317.52" width="983.35" height="327.78" rx="110.92" ry="110.92"/>
+  <circle class="fil0 str1" cx="4898.09" cy="6227.33" r="147.49"/>
+  <path class="fil0 str1" d="M4631.32 6998.84c90.94,0 173.02,-37.92 231.3,-98.8 9.61,-10.04 21.58,-15.15 35.48,-15.15 13.9,0 25.86,5.11 35.47,15.15 58.28,60.88 140.35,98.8 231.29,98.8 166.39,0 301.22,-126.21 318.34,-285.71 1.55,-14.36 -2.64,-27.32 -12.29,-38.07 -9.65,-10.74 -22.09,-16.29 -36.54,-16.29 -2.88,0 -5.76,0 -8.64,0 -25.15,0 -46.04,18.7 -48.81,43.7 -11.84,106.62 -102.25,189.55 -212.04,189.55 -109.78,0 -200.21,-82.92 -212.04,-189.55 -2.77,-24.99 -23.67,-43.7 -48.81,-43.7 -3.94,0 -7.89,0 -11.83,0 -25.15,0 -46.04,18.7 -48.81,43.7 -11.83,106.62 -102.25,189.55 -212.04,189.55 -109.78,0 -200.21,-82.92 -212.04,-189.55 -2.77,-24.99 -23.67,-43.7 -48.81,-43.7 -2.88,0 -5.76,0 -8.65,0 -14.44,0 -26.88,5.55 -36.53,16.29 -9.65,10.75 -13.84,23.71 -12.3,38.07 17.13,159.5 151.94,285.71 318.34,285.71z"/>
+  <rect class="fil0 str1" x="7441.17" y="6772.28" width="983.35" height="163.89" rx="110.92" ry="55.46"/>
+  <rect class="fil0 str1" x="1327.92" y="6772.28" width="983.35" height="163.89" rx="110.92" ry="55.46"/>
+  <rect class="fil0 str1" transform="matrix(0.959218 0.282667 -0.141331 0.479601 7484.38 7052.13)" width="983.35" height="327.78" rx="110.92" ry="110.92"/>
+  <rect class="fil0 str1" transform="matrix(0.963889 -0.266304 0.13315 0.481936 1323.85 7321.67)" width="983.35" height="327.78" rx="110.92" ry="110.92"/>
+ </g>
+</svg>

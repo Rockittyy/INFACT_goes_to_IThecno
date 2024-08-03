@@ -1,0 +1,73 @@
+@import "../var.scss";
+
+
+aside.NavBar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 400px;
+    background-color: $cpBackgroundAcc;
+
+    .closeBut {
+        display: flex;
+        justify-content: space-evenly;
+        height: 40vh;
+        max-height: 185px;
+        .flexhold {
+            flex-grow: 2;
+        }
+        button {
+            background-color: transparent;
+            border: none;
+            flex-grow: 1;
+        }
+    }
+    nav {
+        max-height: 320px;
+        height: 60vh;
+
+        display: flex;
+        justify-content: space-between;
+
+        flex-direction: column;
+        margin: 0 40px;
+        * {
+            color: $cpBackground;
+            line-height: 80%;
+        }
+        h2 {
+            font-size: 35px;
+            -webkit-text-stroke: transparent;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        h3 {
+            font-size: 40px;
+            line-height: 50%;
+            margin-left: 5px;
+        }
+
+        .Title2 {
+            width: fit-content;
+            position: relative;
+            .top {
+                display: flex;
+                align-items: flex-end;
+                h2 {
+                    color: $cpSecondary;
+                    line-height: 100%;
+                }
+            }
+            h1 {
+                position: absolute;
+                right: 0;
+            }
+        }
+        .TimeArchive {
+            display: flex;
+            gap: 12px;
+        }
+    }
+}
