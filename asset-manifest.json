@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/INFACT_goes_to_IThecno/static/css/main.9f84fc78.css",
+    "main.js": "/INFACT_goes_to_IThecno/static/js/main.df71bca4.js",
+    "static/js/208.0b484ac0.chunk.js": "/INFACT_goes_to_IThecno/static/js/208.0b484ac0.chunk.js",
+    "static/js/293.f2d74ae4.chunk.js": "/INFACT_goes_to_IThecno/static/js/293.f2d74ae4.chunk.js",
+    "static/js/917.7d984084.chunk.js": "/INFACT_goes_to_IThecno/static/js/917.7d984084.chunk.js",
+    "static/js/516.e439b721.chunk.js": "/INFACT_goes_to_IThecno/static/js/516.e439b721.chunk.js",
+    "static/js/519.852a9502.chunk.js": "/INFACT_goes_to_IThecno/static/js/519.852a9502.chunk.js",
+    "static/js/946.51ca008e.chunk.js": "/INFACT_goes_to_IThecno/static/js/946.51ca008e.chunk.js",
+    "static/js/160.ca795a8f.chunk.js": "/INFACT_goes_to_IThecno/static/js/160.ca795a8f.chunk.js",
+    "static/js/23.117fded6.chunk.js": "/INFACT_goes_to_IThecno/static/js/23.117fded6.chunk.js",
+    "static/js/453.0cc0ac16.chunk.js": "/INFACT_goes_to_IThecno/static/js/453.0cc0ac16.chunk.js",
+    "static/media/argine.otf": "/INFACT_goes_to_IThecno/static/media/argine.e87f2bb33231da913910.otf",
+    "static/media/Sagite-Italic.otf": "/INFACT_goes_to_IThecno/static/media/Sagite-Italic.7df7c2062b924c8e9856.otf",
+    "static/media/Sagite.otf": "/INFACT_goes_to_IThecno/static/media/Sagite.06bc475690cd2b396f30.otf",
+    "static/media/book.svg": "/INFACT_goes_to_IThecno/static/media/book.9807562c5ba06ed301bf321674280119.svg",
+    "static/media/Beauty.otf": "/INFACT_goes_to_IThecno/static/media/Beauty.9f71153c5220dd7942ca.otf",
+    "static/media/Akira Expanded.otf": "/INFACT_goes_to_IThecno/static/media/Akira Expanded.5198553380d9bb727554.otf",
+    "index.html": "/INFACT_goes_to_IThecno/index.html",
+    "static/media/openNav.svg": "/INFACT_goes_to_IThecno/static/media/openNav.91c704d3d6496bd0167bf23318a45b20.svg",
+    "static/media/goBack.svg": "/INFACT_goes_to_IThecno/static/media/goBack.fddf717a1c7cd1fcb09099ccc745002d.svg",
+    "static/media/close.svg": "/INFACT_goes_to_IThecno/static/media/close.6cf1ee64af9e64fbdb5b9b1ab728ad51.svg",
+    "main.9f84fc78.css.map": "/INFACT_goes_to_IThecno/static/css/main.9f84fc78.css.map",
+    "main.df71bca4.js.map": "/INFACT_goes_to_IThecno/static/js/main.df71bca4.js.map",
+    "208.0b484ac0.chunk.js.map": "/INFACT_goes_to_IThecno/static/js/208.0b484ac0.chunk.js.map",
+    "293.f2d74ae4.chunk.js.map": "/INFACT_goes_to_IThecno/static/js/293.f2d74ae4.chunk.js.map",
+    "917.7d984084.chunk.js.map": "/INFACT_goes_to_IThecno/static/js/917.7d984084.chunk.js.map",
+    "516.e439b721.chunk.js.map": "/INFACT_goes_to_IThecno/static/js/516.e439b721.chunk.js.map",
+    "519.852a9502.chunk.js.map": "/INFACT_goes_to_IThecno/static/js/519.852a9502.chunk.js.map",
+    "946.51ca008e.chunk.js.map": "/INFACT_goes_to_IThecno/static/js/946.51ca008e.chunk.js.map",
+    "160.ca795a8f.chunk.js.map": "/INFACT_goes_to_IThecno/static/js/160.ca795a8f.chunk.js.map",
+    "23.117fded6.chunk.js.map": "/INFACT_goes_to_IThecno/static/js/23.117fded6.chunk.js.map",
+    "453.0cc0ac16.chunk.js.map": "/INFACT_goes_to_IThecno/static/js/453.0cc0ac16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f84fc78.css",
+    "static/js/main.df71bca4.js"
+  ]
+}
